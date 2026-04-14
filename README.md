@@ -1,13 +1,17 @@
-# Rescue Animal System (Java)
+# 🐾 Rescue Animal System
 
-## Overview
-This project is a Java-based application developed for Southern New Hampshire University coursework. The system is designed to manage rescue animals, including dogs and monkeys, by allowing users to intake new animals, reserve animals for service, and generate reports.
-
-The application demonstrates object-oriented programming (OOP) concepts such as inheritance, encapsulation, and class design.
+A Java-based application that manages rescue animals by allowing users to intake, reserve, and report on animals using object-oriented programming principles.
 
 ---
 
-## Features
+## 📌 Overview
+This project is a Java application designed to manage rescue animals, including dogs and monkeys. Users can intake new animals, reserve animals for service, and generate reports.
+
+The application demonstrates key object-oriented programming (OOP) concepts such as inheritance, encapsulation, and class design.
+
+---
+
+## 🚀 Features
 - Intake new dogs and monkeys
 - Reserve animals for service
 - Display lists of animals:
@@ -18,31 +22,15 @@ The application demonstrates object-oriented programming (OOP) concepts such as 
 
 ---
 
-## Technologies Used
-- Java
+## 🛠️ Technologies Used
+- **Java**
 - Object-Oriented Programming (OOP)
 - Eclipse IDE (or similar Java IDE)
 
 ---
 
-## Project Structure
-- `RescueAnimal.java` – Base class containing shared animal attributes
-- `Dog.java` – Subclass representing dogs
-- `Monkey.java` – Subclass representing monkeys
-- `Driver.java` – Main program with menu and user interaction
-
----
-
-## How to Run
-1. Open the project in a Java IDE (such as Eclipse).
-2. Compile all `.java` files.
-3. Run `Driver.java`.
-4. Follow the on-screen menu to interact with the system.
-
----
-
-## Key Concepts Demonstrated
-- Inheritance (Dog and Monkey extend RescueAnimal)
+## 🧠 Concepts Demonstrated
+- Inheritance (**Dog** and **Monkey** extend **RescueAnimal**)
 - Encapsulation (use of getters and setters)
 - ArrayLists for data storage
 - User input handling
@@ -50,7 +38,35 @@ The application demonstrates object-oriented programming (OOP) concepts such as 
 
 ---
 
-## Author
-Megan Savage-Osterwalder  
-Southern New Hampshire University  
-Computer Science Program
+## 📂 Project Structure
+├── RescueAnimal.java   # Base class with shared attributes
+├── Dog.java            # Subclass representing dogs
+├── Monkey.java         # Subclass representing monkeys
+└── Driver.java         # Main program with menu and user interaction
+
+---
+
+## ▶️ How to Run
+1. Open the project in a Java IDE (such as Eclipse)
+2. Compile all `.java` files
+3. Run `Driver.java`
+4. Follow the on-screen menu to interact with the system
+
+---
+
+## 📈 Future Enhancements
+- Add persistent data storage (file or database)
+- Improve user interface
+- Add search and filtering options
+- Expand to support additional animal types
+
+---
+
+## 👩‍💻 Author
+**Meg Savage-Osterwalder**  
+Computer Science Student | Aspiring Software Engineer  
+
+---
+
+## ⭐ Notes
+This project was completed as part of SNHU coursework and demonstrates practical application of object-oriented programming in Java.
